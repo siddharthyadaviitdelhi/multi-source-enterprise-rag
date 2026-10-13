@@ -1,0 +1,4 @@
+topic,policy,owner
+Support ticket retention,"Support tickets are retained for 30 days after closure unless a legal hold applies.",Customer Support
+Data access,"Employees must request access through the internal access portal. The data owner approves access.",Security
+Encryption,"Sensitive data must be encrypted in transit using TLS and encrypted at rest.",Security
