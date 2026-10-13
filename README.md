@@ -1,12 +1,12 @@
 # Multi-Source Enterprise RAG
 
-A learning-oriented Retrieval-Augmented Generation (RAG) application that ingests PDFs, CSV files, SQLite tables and public webpages, indexes text with FAISS, retrieves evidence, optionally reranks it, and asks a Groq-hosted LLM to answer with source IDs.
+A learning-oriented Retrieval-Augmented Generation (RAG) application that ingests PDFs, CSV files , PPTX indexes text with FAISS, retrieves evidence, optionally reranks it, and asks a Groq-hosted LLM to answer with source IDs.
 
 > **Status:** runnable educational prototype. Graph retrieval is a simple entity co-occurrence heuristic, not a production knowledge graph. The evaluation is a small smoke test, not a benchmark. Do not claim quality improvements without measuring them.
 
 ## Features
 
-- Multi-source ingestion: PDF, PowerPoint (PPTX), CSV, SQLite, public webpages.
+- Multi-source ingestion: PDF, (PPTX), CSV.
 - Overlapping chunking with source metadata.
 - Sentence-transformer embeddings and FAISS inner-product search over normalized vectors.
 - Semantic retrieval, hybrid FAISS + BM25 with Reciprocal Rank Fusion (RRF), sentence-window retrieval, and graph-heuristic retrieval.
