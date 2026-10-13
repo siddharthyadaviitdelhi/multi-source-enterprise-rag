@@ -170,3 +170,4 @@ requirements.txt
 
 ### PowerPoint support
 PowerPoint `.pptx` files are parsed slide by slide. Text boxes, titles, and table cells are extracted; images, charts, and text embedded only inside screenshots are not OCR-processed. Legacy `.ppt` files are not supported; save them as `.pptx` first.
+
