@@ -10,4 +10,4 @@ beautifulsoup4>=4.12
 networkx>=3.2
 numpy>=1.26
 python-dotenv>=1.0
-pytest>=8.0\npython-pptx>=0.6.23\n
+pytest>=8.0\npython-pptx>=0.6.23
