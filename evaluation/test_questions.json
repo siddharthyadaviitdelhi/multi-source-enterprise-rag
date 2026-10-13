@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is the default retention period for support tickets?",
+    "expected_source_contains": "sample_policy.csv",
+    "expected_keyword": "30 days"
+  },
+  {
+    "question": "Who approves production access?",
+    "expected_source_contains": "sample_handbook.csv",
+    "expected_keyword": "Engineering Manager"
+  },
+  {
+    "question": "What is the incident response target for a critical outage?",
+    "expected_source_contains": "sample_handbook.csv",
+    "expected_keyword": "15 minutes"
+  }
+]
